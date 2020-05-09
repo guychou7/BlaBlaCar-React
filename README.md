@@ -3,16 +3,19 @@
 **Site Officiel** https://www.blablacar.fr/
 
 **Mission**
-<br/>
-Reproduire à l'identique ou en version améliorée la page d’accueil et le formulaire de Recherche.
+<br/>Reproduire à l'identique ou en version améliorée la page d’accueil et le formulaire de Recherche.<br/>
+Délais : 1 semaine
 
 **Liens des pages à reproduire**
 1) https://www.blablacar.fr
 2) https://www.blablacar.fr/search-car-sharing
-Délais : 1 semaine
+
+
 
 **Resultat**
-https://blablacar.broucharles.com/
+1) https://blablacar.broucharles.com/
+2) https://blablacar.broucharles.com/search-car-sharing
+
 
 **Technologies utilisées**
 1) React
