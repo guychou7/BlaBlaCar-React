@@ -1,0 +1,587 @@
+/* Typeface: GT Eesti */
+@font-face {
+    font-family: 'GTEestiProDisplay-Regular';
+    src: url(https://cdn.blablacar.com/kairos/assets/build/fonts/GT-Eesti-Pro-Display-Regular.woff2) format('woff2'), url(https://cdn.blablacar.com/kairos/assets/build/fonts/GT-Eesti-Pro-Display-Regular.woff) format('woff'), url(https://cdn.blablacar.com/kairos/assets/build/fonts/GT-Eesti-Pro-Display-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTEestiProDisplay-Medium';
+    src: url(https://cdn.blablacar.com/kairos/assets/build/fonts/GT-Eesti-Pro-Display-Medium.woff2) format('woff2'), url(https://cdn.blablacar.com/kairos/assets/build/fonts/GT-Eesti-Pro-Display-Medium.woff) format('woff'), url(https://cdn.blablacar.com/kairos/assets/build/fonts/GT-Eesti-Pro-Display-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    min-height: 78px; height: auto;
+    font-family: GTEestiProDisplay-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.content{
+    padding-top: 59px!important;
+}
+.navbar{
+    background: #fff;
+    border-bottom: 1px solid #f8f9fa;
+}
+.navbar.separator{
+    border-bottom: 1px solid #DDD !important;
+}
+.navbar-brand{
+    margin-left:1rem;
+}
+.navmobile, .landing-banner.mobile, .mobile-lbsub, .costumers-banner.mobile {
+    display: none !important;
+}
+.navmobile > div{
+    width: 33.33% !important;
+    display: inline-block !important;
+}
+.navmobile li{
+    list-style: none;
+}
+.navmobile .useractions li{
+    width: 50% !important;
+    display: inline-block !important;
+}
+nav a, nav a:hover, .notice a, .notice a:hover, .text-primary a, .text-primary a:hover, .skill a, .skill a:hover{
+    color: #00AFF5;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-item{
+    margin-right: 7px;
+}
+.nav-link{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.mr-m{
+    margin-right: 5px !important;
+    margin-top: -5px !important;
+
+}
+.notice {
+    max-width: 1016px;
+    margin: auto;
+    padding: 16px 0px;
+    font-weight: 500;
+    color: rgb(112, 140, 145);
+    font-size: 16px;
+    line-height: 20px;
+}
+.notice span{
+    display: inline-block;
+}
+.notice span:nth-child(1){
+    width: 24px;
+    margin-right: 16px;
+}
+.banner{
+    width: 100% !important;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff !important;
+    padding-top: 12em;
+    z-index: 2;
+}
+.landing-banner{
+    background-image: url("https://cdn.blablacar.com/kairos/assets/build/images/home_summer_campaign_large-240e0d9fe2123506cca634c2acedce24.jpg") !important;
+}
+.landing-banner:before{
+    content: '';
+    display: block;
+    height:100% !important;
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 72%, rgba(0, 0, 0, 0.2) 85%, rgba(0, 0, 0, 0) 100%);
+}
+.landing-banner-title{
+    font-size: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: GTEestiProDisplay-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.landing-banner-subtitle{
+    font-size: 26px;
+}
+.blabla-btn, .blabla-btn:hover {
+    color: #fff;
+    background-color: rgb(0, 175, 245);
+    outline: none !important;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    height: 48px;
+    min-width: 48px;
+    max-width: 100%;
+    user-select: none;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0px 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    border-radius: 48px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: max-width 500ms ease-in 0s, background-color 200ms ease-in 0s;
+}
+.costumers-banner{
+    background-image: url("https://broucharles.com/img/costumer_banner.jpg") !important;
+}
+.costumer.passenger{
+    padding-left: 3.6rem;
+}
+.section-title{
+    font-size: 30px !important;
+    color: rgb(5, 71, 82) !important;
+    font-family: GTEestiProDisplay-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif !important
+}
+.section-title svg{
+    margin-top: -10px !important;
+}
+.list-group-item{
+    border: none !important;
+    padding: 0 !important;
+}
+.list-group-item a{
+    border-radius: 48px !important;
+    color: rgb(5, 71, 82) !important;
+    text-decoration: none !important;
+    height: 48px;
+    width: 100%;
+    padding: 0px 24px;
+    box-sizing: border-box;
+    display: inline-flex;
+    line-height: 1;
+    align-items: center;
+}
+.list-group-item a .badge{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 80%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    margin-top: 1px;
+}
+.list-group-item a .badge svg{
+    margin-top: -4px;
+}
+.toproutes .section-title{
+    color: #fff !important;
+}
+.toproutes .toproutes-control-btn{
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    background: no-repeat;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 25px;
+}
+.toproutes .toproutes-grid .list-group {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+.toproutes .toproutes-grid .list-group .list-group-item {
+    display: inline-block;
+    min-width: calc(30% - 70px);
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background: transparent;
+}
+.toproutes .toproutes-grid .list-group .list-group-item a{
+    background-color: #f8f9fa !important;
+}
+.toproutes .toproutes-grid .list-group .list-group-item a:hover{
+    color: #2dbeff !important;
+}
+.toproutes .toproutes-grid .list-group .list-group-item a.alltoproutes{
+    background: #00aff5 !important;
+    color: #fff !important;
+    padding-left: 20%;
+}
+.toproutes .toproutes-grid .list-group .list-group-item a.alltoproutes:hover{
+    color: #fff !important;
+}
+.bus-offers-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://cdn.blablacar.com/kairos/assets/build/images/blablabus2_large-611071cd4e9502579e94f6bc24391eda.jpg") !important;
+    border-radius: 5px;
+}
+.bus-offers .blabla-btn, .bus-offers .blabla-btn:hover{
+    color: #fff;
+}
+.bus-offers-title{
+    font-size: 2rem !important;
+}
+.topbus .topbus-grid .list-group{
+    display: inline-block;
+    width: 50% !important;
+}
+.topbus .topbus-grid.list-grid-search .list-group{
+    width: 100% !important;
+}
+.topbus .topbus-grid .list-group .list-group-item a{
+    border-radius: 48px !important;
+}
+.topbus .topbus-grid .list-group .list-group-item a:hover{
+     background-color: #f8f9fa !important;
+}
+.blog .section-title{
+    font-size: 2.5rem !important;
+}
+.blog-img{
+    width: 100% !important;
+}
+.rptb{
+    padding: 3rem 0px !important;
+
+}
+footer{
+    color: #fff;
+    font-size: 15px;
+}
+.footer_menu_title{
+    font-family: GTEestiProDisplay-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase;
+}
+.bg-dark-blue{
+    background-color: #171721;
+}
+.about_blablacar {
+    max-width: 420px;
+}
+ul.footer_menu_list li a {
+    display: inline-block;
+    padding: 5px 0;
+    text-decoration: none !important;
+    transition: all 0.5s;
+}
+.about_blablacar, ul.footer_menu_list li a {
+     color: #6c757d;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+.text-muted {
+    color: #646f79 !important;
+}
+.text-muted:hover, ul.footer_menu_list li a:hover {
+    color: #fff !important;
+}
+.fot_social .social-icon {
+    border-radius: 50%;
+    background-color: rgba(241, 241, 241, 0.05);
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    line-height: 42px;
+    text-align: center;
+}
+.fot_social .social-icon svg{
+    margin-top: -5px;
+}
+.copy-rights, .copy-rights a{
+    color: #171721 !important;
+}
+.copy-rights a{
+    text-decoration: none !important;
+}
+.languageselectore{
+    color: #171721 !important;
+    text-align: right;
+}
+.footer_utils .col-lg-4{
+    width: 50% !important;
+}
+
+/* Search Page css */
+form{
+    margin-top: 25px;
+}
+form input{
+    border-radius: 48px !important;
+    height: 48px !important;
+    width: 100%;
+    padding: 0px 24px;
+    box-sizing: border-box;
+    display: inline-flex;
+    line-height: 1;
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+    font-family: GTEestiProDisplay-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: rgb(5, 71, 82) !important;
+    margin-bottom: 10px;
+    background-color: #f8f9fa !important;
+    text-transform: none;
+    text-shadow: none !important;
+}
+form input.form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: rgb(221, 221, 221);
+}
+.exchange-btn{
+    position: absolute;
+    top: 3.5rem;
+    right: 2rem;
+    display: block;
+    text-align: center;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    padding: 15px;
+    border-radius: 100%;
+    transform: rotate(90deg);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 175, 245);
+    border: 1px solid rgb(221, 221, 221);
+}
+.infotravel input{
+    display: inline-flex;
+}
+.infotravel svg{
+    position: absolute;
+    z-index: 5;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 15px;
+    color: rgb(221, 221, 221);
+}
+.infotravel > div{
+    margin-right: 15px;
+}
+.infotravel > div, .infotravel .seat{
+    width: 165px !important;
+    display: inline-table;
+}
+.infotravel .react-datepicker-wrapper input, .infotravel .seat, .infotravel .day{
+    padding-left: 3rem !important;
+}
+.react-datepicker{
+    font-size: 100% !important;
+    font-family: GTEestiProDisplay-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.react-datepicker__portal{
+    background-color: #fff !important;
+}
+.react-datepicker, .react-datepicker__header{
+    border-color: transparent !important;
+}
+.react-datepicker__header{
+    background-color: #fff !important;
+    font-size: 20px !important;
+}
+.react-datepicker__current-month{
+    color: rgb(5, 71, 82) !important;
+    font-weight: 400;
+}
+.react-datepicker__current-month {
+    text-transform: capitalize;
+}
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range{
+    border-radius: 100% !important;
+    background-color: #00AFF5 !important;
+    outline: none;
+}
+.react-datepicker__day:hover, .react-datepicker__day:focus{
+    border-radius: 100% !important;
+    background-color: #f8f9fa !important;
+    outline: none !important;
+}
+.react-datepicker__day{
+    font-size: 15px;
+}
+.react-datepicker__day--selected:hover, .react-datepicker__time-list-item--selected{
+    background-color: #00AFF5 !important;
+}
+.react-datepicker__navigation{
+    outline: none !important;
+}
+.react-datepicker__navigation.react-datepicker__navigation--next{
+    border-left-color: #00AFF5 !important;
+}
+.react-datepicker__portal .react-datepicker__navigation--previous{
+    border-right-color: #00AFF5 !important;
+}
+.react-datepicker__tab-loop{
+    position: absolute !important;
+    margin: auto !important;
+    left: 14rem;
+    bottom: 6rem;
+}
+.react-datepicker-popper{
+    will-change: auto !important;
+    transform: none !important;
+}
+.react-datepicker__header--time{
+    display: none !important;
+}
+.autocomplete-dropdown-container{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+@media( max-width: 991px) {
+    .notice span{
+        padding-left: 2em;
+    }
+}
+@media (min-width: 800px){
+    .landing-banner{
+        height: 75vh;
+        margin-bottom: 24px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar{
+        padding: 0 !important;
+    }
+    .navbar-expand-md > .container-fluid{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navlaptop{
+        display: none !important;
+    }
+    .navmobile{
+        display: block !important;
+    }
+    .content {
+        padding-top: 60px !important;
+    }
+    .notice {
+        font-size: 14px;
+    }
+    .notice span:nth-child(1){
+        padding-left: 1em;
+    }
+    .notice span:nth-child(2){
+        padding-left: 3em;
+        margin-top: -5em;
+    }
+    .landing-banner::before {
+        background: transparent !important;
+    }
+    .landing-banner, .costumers-banner{
+        display: none;
+    }
+    .landing-banner.mobile, .costumers-banner.mobile{
+        display: block !important;
+    }
+    .landing-banner-title{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 28px !important;
+        color: rgb(5, 71, 82) !important;
+        font-family: GTEestiProDisplay-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+    .costumer{
+        text-align: center !important;
+    }
+    .costumer h2{
+        font-weight: 500;
+        font-size: 30px !important;
+        color: rgb(5, 71, 82) !important;
+        font-family: GTEestiProDisplay-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+    .landing-banner-subtitle{
+        font-size: 20px
+    }
+    .mobile-lbsub{
+        display: block !important;
+    }
+    .costumers-banner{
+        padding-top: 9em !important;
+    }
+    .costumer.passenger{
+        padding-left: 15px !important;
+    }
+    .infotravel > div{
+        margin-right: 0 !important;
+    }
+    .infotravel input{
+        display: block !important;
+    }
+
+    .infotravel > div, .infotravel .seat{
+        width: 100% !important;
+        display: block !important;
+    }
+    .react-datepicker__portal > div{
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    .react-datepicker__tab-loop{
+        width: 87px !important;
+        bottom: 9rem;
+        right:-15px !important;
+        z-index: 10;
+    }
+    .toproutes .toproutes-grid .list-group {
+        display: block !important;
+        flex-flow: inherit !important;
+        align-items: baseline !important;
+    }
+    .toproutes .toproutes-grid .list-group .list-group-item {
+        display: block;
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+    }
+    .toproutes .toproutes-grid .list-group .list-group-item a.alltoproutes{
+        padding-left: 25%;
+    }
+    .toproutes .toproutes-control-btn{
+        right: 10px;
+    }
+    .skill.skill-two.pb-5{
+        padding-bottom: 0 !important;
+    }
+    .bus-offers-img{
+        height: 250px !important;
+    }
+    .bg-grad.p-5{
+        padding: 0 !important;
+        text-align: center;
+    }
+    .topbus .section-title{
+        text-align: center !important;
+    }
+    .topbus .topbus-grid > .list-group{
+        display: block;
+        width: 100% !important;
+    }
+    .topbus .topbus-grid > .list-group:nth-child(2){
+        display: none;
+    }
+    .blog .section-title, .blog .text-primary{
+        text-align: center !important;
+    }
+}
